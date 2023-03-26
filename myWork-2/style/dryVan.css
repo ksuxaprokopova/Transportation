@@ -1,0 +1,14 @@
+.dry-van{
+    background: #F5F5F5;
+    padding: 52px 0px 85px;
+}
+.dry-van-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #737373;
+    max-width: 1290px;
+    margin-bottom: 25px;
+}

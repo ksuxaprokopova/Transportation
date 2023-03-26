@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.body{
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog{
+    background: #F5F5F5;
+    padding: 70px 0px 80px;
+}
+.blog-title{
+    font-family: 'Exo';
+    font-size: 42px;
+    line-height: 120%;  
+    text-align: center;
+    color: #6D010C;
+    margin-bottom: 67px;
+}
+.blog-body{
+    display: flex;
+    align-items: flex-start;
+}
+.coordinats>p{
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 150%;  
+    color: #737373;
+    margin-right: 50px;
+}
+.vector{
+    position: relative;
+}
+.top{
+    position: absolute;
+    width: 4px;
+    height: 8px;
+    background: #EBEBEB;
+    top: -8px;
+    left: 2px;
+}
+.right{
+    position: absolute;
+    width: 29px;
+    height: 4px;
+    background: #EBEBEB;
+    top: 6px;
+    left: 12px;
+}
+.bottom{
+    position: absolute;
+    width: 4px;
+    height: 213px;
+    background: #EBEBEB;
+    left: 2px;
+}
+.blog-form-title{
+    max-width: 486px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 100%;
+    color: #6D010C;
+    margin-bottom: 16px;
+}
+.blog-form-text{
+    max-width: 565px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #737373;
+    margin-bottom: 15px;
+}
+.blog-form-input{
+    width: 630px;
+    height: 44px;
+    background: #F0F0F0;
+    border: none;
+}
+.blog-form-label{
+    position: relative;
+}
+.label-rectangle{
+    width: 1.06px;
+    height: 30px;
+    background: #DDDDDD;
+    bottom: -7px;
+    right: 230px;
+    margin-right: 10px;
+}
+.blog-form-label-image{
+    position: absolute;
+    bottom: -7px;
+    right: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+.blog-form-img{
+    margin-right: 10px;
+}
+.blog-form-btn>a{  
+    color: #276DD7;
+}

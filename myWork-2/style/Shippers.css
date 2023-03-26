@@ -1,0 +1,57 @@
+.container{
+    max-width: 1320px;
+}
+
+.ship-body{
+    background: #F5F5F5;
+    padding: 52px 0px 85px;
+}
+.ship-title{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Exo';;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    color: #6D010C;
+    margin-bottom: 54px;
+}
+.text-body{
+    max-width: 630px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 150%;
+    color: #737373;
+    margin-bottom: 25px;
+}
+
+.ship-pictures{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.careers-buttons{
+    display: flex;
+    justify-content: center;
+}
+.careers-btn:first-child{
+    margin-right: 30px;
+}
+.careers-btn{
+    border: none;
+    width: 380px;
+    height: 60px;
+    background: #6D010C;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.careers-btn>a{
+    color: #FFFFFF;
+}

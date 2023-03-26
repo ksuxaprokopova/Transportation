@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.body{
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 100px;
+    background: #000000;
+    opacity: 0.65;
+    padding: 15px 0px;
+}
+.logo{
+    margin-right: 107px;
+}
+.header-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.header-link:hover{
+    font-weight: 600;
+}
+.header-li{
+    position: relative;
+}
+.header-li:not(:last-of-type){
+    margin-right: 67px;
+}
+.header-li a:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    bottom: -5px;
+    transition: .7s;
+}
+.header-li>.menu-active:hover::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #4d0b11;;
+    bottom: -5px;
+    transition: .7s;
+}
+.menu-active{
+    color:  #400208;
+}
+
+.about-us{
+    background: url(../img/about/foto1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 180px 0px 85px;
+}
+.about-us-title{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 120%;  
+    color: #4a080f;
+}
+
+.information{
+    background: #F5F5F5;
+    padding: 52px 0px 68px;
+}
+.information-title{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Exo';
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    text-align: center;
+    color: #6D010C;
+    margin-bottom: 54px;
+}
+.info-text-ab{
+    max-width: 630px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #737373;
+    margin-bottom: 20px;
+}
+.information-img{
+    text-align: center;
+    margin: 0 auto;
+    min-width: 100%;
+}
+.about-menu{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    background: #F0EFED;
+    display: none;
+}
+.about-menu-link{
+    padding: 13px 150px 13px 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #504d4d;
+}
+.about-menu-li{
+    padding-top: 13px;
+}
+.header-li:hover>.about-menu{
+    display: block;
+}
+
+
+.footer-top{
+    align-items: flex-start;
+}
