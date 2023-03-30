@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/Shippers.css">
-    <link rel="stylesheet" href="./style/about.css">
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/Shippers.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/office.css">
 </head>
 <body>
     <header class="header">
@@ -85,8 +87,152 @@
             </div>
         </div>  
     </section>
-   
-    
+    <section class="office">
+        <div class="container">
+            <h2 class="office-title">Driver Position Contact Form</h2>
+            <form action="#" class="office-form flex">
+                <div class="office-left">
+                    <div class="field">
+                        <label for="select" class="office-label">
+                            *Position You are interested in:</label>
+                            <select tabindex="1" id="select" class="of-input">
+                                <option value="#">--- </option>
+                                <option value="#">- Lease Purchase Solo - </option>
+                                <option value="#">- Lease Purchase Team - </option>
+                                <option value="#"> - Solo Company Driver - </option>
+                                <option value="#">- Team Driver with Co-Driver -</option>
+                                <option value="#">- Team Driver without Co-Driver - </option>
+                                <option value="#"> - Owner Operator -</option>
+                            </select>
+                    </div>
+                    <div class="field">
+                        <label for="last-name" class="office-label">
+                            *Last Name: </label>
+                            <input tabindex="2" id="last-name" type="text" class="of-input" required>
+                    </div>
+                    <div class="field">
+                        <label for="home-zip" class="office-label">*Home Zip:</label>
+                            <input tabindex="3" id="home-zir" type="text" class="of-input  f-in" required>
+                    </div>
+                    <div class="field field-bottom">
+                        <p class="of-form-text">Do you have a Class A CDL?</p>
+                        <label>
+                            <input tabindex="4" class="f-radio" name="radio" type="radio">
+                            No
+                        </label>
+                        <label>
+                            <input tabindex="4" class="f-radio" name="radio" type="radio">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="field">
+                        <p class="of-form-text">Have you ever tested positive for a controlled substance?</p>
+                        <label>
+                            <input tabindex="5" class="f-radio-two" name="radio2" type="radio">
+                            No
+                        </label>
+                        <label>
+                            <input tabindex="5" class="f-radio-two" name="radio2" type="radio">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="field field-bottom">
+                        <label for="acciend" class="office-label">
+                            Do you have any accidents in the past 3 years? How many?</label>
+                            <input tabindex="16" id="acciend" type="text" class="of-input">
+                        
+                    </div>
+                    <div class="field">
+                        <p class="of-form-text">Coming to the company on orientation does not guarantee employement</p>
+                        <label class="form-label-checkbox">
+                            <input tabindex="17" class="f-in-checkbox" type="checkbox">
+                            I accept the terms and conditions of the Privacy Policy
+                        </label>
+                    </div>
+                    <div class="gcapt">
+                        <img src="./img/contact/gcapt.png" alt="">
+                        <label class="f-label"><input tabindex="18" class="checkbox"  type="checkbox"></label>
+                    </div>
+                    <div class="form-button">
+                        <button tabindex="19" type="submit" class="form-btn"><a href="#">Send a message</a></button>
+                    </div>
+                </div>
+                <div class="office-center">
+                    <div class="field">
+                        <label for="first-name" class="office-label">
+                            *First Name:</label>
+                            <input tabindex="6" id="first-name" type="text" class="of-input">
+                    </div>
+                    <div class="field">
+                        <label for="city" class="office-label">
+                            *City:</label>
+                            <input tabindex="7" id="city" type="text" class="of-input">
+                    </div>
+                    <div class="field">
+                        <label for="email" class="office-label">*E-Mail: </label>
+                            <input tabindex="8" id="email" type="email" class="of-input  f-in">
+                    </div>
+                    <div class="field field-bottom">
+                        <p class="of-form-text">Are you at least 21 years of age?</p>
+                        <label>
+                            <input tabindex="9" class="f-radio" name="radio" type="radio">
+                            No
+                        </label>
+                        <label>
+                            <input tabindex="9" class="f-radio" name="radio" type="radio">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="field">
+                        <p class="of-form-text">Do you have any DUI violations?</p>
+                        <label>
+                            <input tabindex="10" class="f-radio-two" name="radio2" type="radio">
+                            No
+                        </label>
+                        <label>
+                            <input tabindex="10" class="f-radio-two" name="radio2" type="radio">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+                <div class="office-right">
+                    <div class="field">
+                        <label for="middle-name" class="office-label">
+                            Middle Name:</label>
+                            <input tabindex="11" id="middle-name" type="text" class="of-input">
+                    </div>
+                    <div class="field">
+                        <label for="state" class="office-label">
+                            *State: </label>
+                            <input tabindex="12" id="state" type="text" class="of-input">
+                    </div>
+                    <div class="field">
+                        <label for="Phone" class="office-label">*Phone Number:</label>
+                            <input tabindex="13" id="phone" type="tel" class="of-input  f-in">
+                    </div>
+                    <div class="field field-bottom">
+                        <p class="of-form-text">Have you changed more than 2 companies in the last year?</p>
+                        <label>
+                            <input tabindex="14" class="f-radio f-radio-two" name="radio" type="radio">
+                            No
+                        </label>
+                        <label>
+                            <input tabindex="14" class="f-radio f-radio-two" name="radio" type="radio">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="field field-bottom">
+                        <label for="tickets" class="office-label">
+                            Do you have any tickets in the past 3 years? How many?</label>
+                            <input tabindex="15" id="tickets" type="text" class="of-input f-in">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="ship container">
+        <img class="ship-pictures" src="./img/careers/driver.png" alt="foto">
+    </section>
     <section class="info">
         <div class="container flex">
             <div class="info-left flex">

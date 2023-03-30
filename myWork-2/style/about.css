@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+button,
+input,
+textarea{
+    outline: none;
+}
+
 a{
     list-style: none;
     text-decoration: none;
@@ -33,7 +39,7 @@ a{
     bottom: 0%;
     height: 100px;
     background: #000000;
-    opacity: 0.65;
+    opacity: 0.85;
     padding: 15px 0px;
 }
 .logo{
@@ -77,6 +83,7 @@ a{
 }
 .menu-active{
     color:  #400208;
+    font-weight: 600;
 }
 
 .about-us{

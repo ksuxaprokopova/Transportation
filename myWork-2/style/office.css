@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+input,
+textarea{
+    outline: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.body{
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.office{
+    background: #F5F5F5;
+    padding: 52px 0px 42px;
+}
+.office-title{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    text-align: center;
+    color: #6D010C;
+    margin-bottom: 65px;
+}
+.office-form{
+    display: flex;
+    align-items: flex-start;
+}
+.field{
+    position: relative;
+    margin-bottom: 25px;
+}
+.office-label{
+    position: absolute;
+    top: -25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    color: #737373;
+    margin-bottom: 3px;
+}
+.of-input{
+  
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    width: 410px;
+    height: 39px;
+    margin-bottom: 13px;
+}
+.of-form-text{
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    color: #737373;
+    margin-bottom: 8px;
+}
+.f-radio{
+    margin-bottom: 15px;
+}
+.f-radio-two{
+    margin-bottom: 40px;
+}
+.form-label-checkbox{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 150%;
+color: #737373;
+margin-bottom: 25px;
+}
+.field-bottom{
+    margin-bottom: 15px;
+}
+.office-textarea{
+    width: 1290px;
+    height: 220px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 24px;
+}

@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/Shippers.css">
-    <link rel="stylesheet" href="./style/about.css">
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/Shippers.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/office.css">
 </head>
 <body>
     <header class="header">
@@ -85,7 +87,77 @@
             </div>
         </div>  
     </section>
-  
+    <section class="office">
+        <div class="container">
+            <h2 class="office-title">Office Position Contact Form</h2>
+            <form action="#">
+                <div class="office-form  flex">
+                    <div class="office-left">
+                        <div class="field">
+                            <label for="job" class="office-label">
+                                *Job Position:</label>
+                                <select tabindex="1" id="job" class="of-input">
+                                    <option value="#">--- </option>
+                                    <option value="#">- Dispatcher -</option>
+                                    <option value="#">- Account Representative -</option>
+                                    <option value="#"> - Safety Department -</option>
+                                    <option value="#">- Accounting -</option>
+                                    <option value="#">- Human Resources Specialist -</option>
+                                </select>
+                        </div>
+                        <div class="field">
+                            <label for="last-name-of" class="office-label">*Last Name:</label>
+                                <input tabindex="2" id="last-name-of" type="text" class="of-input  f-in" required>
+                        </div>
+                        <div class="field">
+                            <label for="email-of" class="office-label">
+                                *E-Mail: </label>
+                                <input tabindex="4" id="email-of" type="email" class="of-input" required>
+                        </div>
+                         
+                    </div>
+                    <div class="office-center">
+                        <div class="field">
+                            <label for="first-name-of" class="office-label">
+                                *First Name:</label>
+                                <input tabindex="4" id="first-name-of" type="text" class="of-input">
+                        </div>
+                        <div class="field">
+                            <label for="city-of" class="office-label">
+                                *City / State / ZIP: </label>
+                                <input tabindex="5" id="city-of" type="text" class="of-input">
+                        </div>   
+                    </div>
+                    <div class="office-right">
+                        <div class="field">
+                            <label for="middle-name-of" class="office-label">
+                                Middle Name:</label>
+                                <input tabindex="6" id="middle-name-of" type="text" class="of-input">
+                        </div>
+                        <div class="field">
+                            <label for="phone-of" class="office-label">
+                                *Phone Number:</label>
+                                <input tabindex="7" id="phone-of" type="text" class="of-input">
+                        </div>
+                    </div>
+                </div>
+                <div class="office-bottom">
+                    <p class="of-form-text">Cover Letter & CV</p>
+                    <textarea class="office-textarea" name="" tabindex="8" ></textarea>
+                    <div class="gcapt">
+                        <img src="./img/contact/gcapt.png" alt="gcapt">
+                        <label class="f-label"><input tabindex="9" class="checkbox"  type="checkbox"></label>
+                    </div>
+                    <div class="form-button">
+                        <button tabindex="10" type="submit" class="form-btn"><a href="#">Send a message</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="ship container">
+        <img class="ship-pictures" src="./img/careers/office.png" alt="foto">
+    </section>
     <section class="info">
         <div class="container flex">
             <div class="info-left flex">

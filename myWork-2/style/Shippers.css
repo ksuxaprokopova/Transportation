@@ -1,6 +1,11 @@
 .container{
     max-width: 1320px;
 }
+button,
+input,
+textarea{
+    outline: none;
+}
 
 .ship-body{
     background: #F5F5F5;
@@ -25,11 +30,16 @@
     margin-bottom: 25px;
 }
 
-.ship-pictures{
+.ship>.ship-pictures{
     display: block;
     margin: 0 auto;
     max-width: 100%;
 }
+
+
+
+
+
 .careers-buttons{
     display: flex;
     justify-content: center;
